@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title></title>
+</head>
+
+<body>
+    <div id="div1">
+        <h2>João Oliveira</h2>
+        <a href="#div3">Sobre</a>
+        <a href="#trabalhos">Trabalhos</a>
+        <a href="#horario">Horário</a>
+        <a href="#contactos">Contactos</a>
+    </div>
+
+    <div id="div2">
+        <h1>João Oliveira</h1>
+        <p>Pessoa muito competente, volátil e com bastante espírito de equipa</p>
+        <a href="#competencias">Saber mais</a>
+    </div>
+
+    <div id="div3">
+        <h2>Sobre mim</h2>
+        <img src="images/img-teste-01.png" alt="">
+
+        <h3 id="competencias">Competências</h3>
+        <ul>
+            <li>Programador Java.</li>
+            <li>Programador Web.</li>
+            <li>Programador de dispositivos móveis</li>
+            <li>Administrador de Sistemas</li>
+        </ul>
+
+        <h3>Experiência</h3>
+        <ul>
+            <li>Estágio Altice Labs.</li>
+            <li>Operador na OLI.</li>
+            <li>Operador de loja lidl</li>
+            <li>Administrador de Sistemas Bodum Plástico</li>
+        </ul>
+    </div>
+
+    <div id="div4">
+        <h2 id="trabalhos">Trabalhos</h2>
+        <p>Trabalhos realizados</p>
+        <img src="images/img-teste-01.png" alt="">
+        <img src="images/img-teste-01.png" alt="">
+        <img src="images/img-teste-01.png" alt="">
+    </div>
+
+    
+
+    <h2 id="horario">Horário</h2>
+    <table>
+        <tr>
+            <th></th>
+            <th>Segunda</th>
+            <th>Terça</th>
+            <th>Quarta</th>
+            <th>Quinta</th>
+            <th>Sexta</th>
+        </tr>
+        <tr>
+            <td>9h-13h</td>
+            <td style="text-align: center;">X</td>
+            <td style="text-align: center;">X</td>
+            <td style="text-align: center;">X</td>
+            <td style="text-align: center;">X</td>
+            <td style="text-align: center;">X</td>
+        </tr>
+        <tr>
+            <td>14h-18h</td>
+            <td style="text-align: center;">X</td>
+            <td style="text-align: center;">X</td>
+            <td style="text-align: center;">X</td>
+            <td style="text-align: center;">X</td>
+            <td style="text-align: center;">X</td>
+        </tr>
+    </table>
+
+    <h2 id="contactos">Contactos</h2>
+    <form action="/action_page.php">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required><br>
+        <label for="telemovel">Telemóvel:</label>
+        <input type="text" id="telemovel" name="telemovel" pattern="9[0-9]{8}" required><br>
+        <label for="cars">Assunto:</label>
+        <select id="assunto" name="assunto">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+        </select><br>
+        <label for="mensagem">Mensagem:</label>
+        <textarea name="mensagem" rows="5" cols="20" maxlength="255" required></textarea><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+
+</body>
+
+</html>

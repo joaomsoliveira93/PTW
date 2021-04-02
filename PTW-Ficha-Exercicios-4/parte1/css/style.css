@@ -1,0 +1,52 @@
+body{
+    background-color: yellow;
+}
+
+.header { 
+    padding: 50px;
+    text-align: center;
+    color: green;
+}
+
+.header a{
+    color: green;
+    text-decoration: none;    
+}
+
+#curso{
+    color: black;
+}
+
+.content{
+    background-color: black;
+    color: white;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-color: red;
+    border-style: solid;
+    border-width: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+#logo{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+ul {
+    list-style-image: url('../images/seta.gif');
+    display: inline-flex;
+} li{
+    margin-left: 50px;
+    
+} a{
+    color: green;
+    text-decoration: underline;
+}
+
+

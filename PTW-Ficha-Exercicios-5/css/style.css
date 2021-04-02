@@ -1,0 +1,73 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 0 0 0;
+}
+
+#div1{
+    background-color: #424b5a;
+    padding: 20px 20px 40px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#div1>a{
+    color: white;
+    text-decoration: none;
+}
+
+#div2{    
+    margin-top: 0;
+    background-image: url("../images/bg.jpg");
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 20px 40px 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#div2>h1{
+    color: #424b5a;
+}
+#div2>a{
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    background-color: #424b5a;
+    color: white;
+    border-radius: 5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#div3{
+    padding: 20px 20px 40px 20px;
+}
+
+#div3>h2{
+    color: #424b5a;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+#div3>h3{
+    color:#424b5a;
+}
+
+#div3>ul{
+    color: #a1aeb7;
+    list-style-type: square;
+}
+
+
+#div4{
+    padding: 20px 20px 40px 20px;
+    background-color: #f2f5f7;
+}
+
+#div4>h2{
+    color: #424b5a;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+#div4>p{
+    color:#a1aeb7;
+    margin-bottom: 30px;
+}
