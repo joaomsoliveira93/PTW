@@ -51,55 +51,61 @@
         <img src="images/img-teste-01.png" alt="">
     </div>
 
-    
 
-    <h2 id="horario">Horário</h2>
-    <table>
-        <tr>
-            <th></th>
-            <th>Segunda</th>
-            <th>Terça</th>
-            <th>Quarta</th>
-            <th>Quinta</th>
-            <th>Sexta</th>
-        </tr>
-        <tr>
-            <td>9h-13h</td>
-            <td style="text-align: center;">X</td>
-            <td style="text-align: center;">X</td>
-            <td style="text-align: center;">X</td>
-            <td style="text-align: center;">X</td>
-            <td style="text-align: center;">X</td>
-        </tr>
-        <tr>
-            <td>14h-18h</td>
-            <td style="text-align: center;">X</td>
-            <td style="text-align: center;">X</td>
-            <td style="text-align: center;">X</td>
-            <td style="text-align: center;">X</td>
-            <td style="text-align: center;">X</td>
-        </tr>
-    </table>
+    <div id="div5">
+        <h2 id="horario">Horário</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Segunda</th>
+                    <th>Terça</th>
+                    <th>Quarta</th>
+                    <th>Quinta</th>
+                    <th>Sexta</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>9h-13h</td>
+                    <td style="text-align: center;">X</td>
+                    <td style="text-align: center;">X</td>
+                    <td style="text-align: center;">X</td>
+                    <td style="text-align: center;">X</td>
+                    <td style="text-align: center;">X</td>
+                </tr>
+                <tr>
+                    <td>14h-18h</td>
+                    <td style="text-align: center;">X</td>
+                    <td style="text-align: center;">X</td>
+                    <td style="text-align: center;">X</td>
+                    <td style="text-align: center;">X</td>
+                    <td style="text-align: center;">X</td>
+                </tr>
+            </tbody>
 
-    <h2 id="contactos">Contactos</h2>
-    <form action="/action_page.php">
-        <label for="name">Nome:</label>
-        <input type="text" id="name" name="name" required><br>
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email" required><br>
-        <label for="telemovel">Telemóvel:</label>
-        <input type="text" id="telemovel" name="telemovel" pattern="9[0-9]{8}" required><br>
-        <label for="cars">Assunto:</label>
-        <select id="assunto" name="assunto">
-            <option value="A">A</option>
-            <option value="B">B</option>
-            <option value="C">C</option>
-            <option value="D">D</option>
-        </select><br>
-        <label for="mensagem">Mensagem:</label>
-        <textarea name="mensagem" rows="5" cols="20" maxlength="255" required></textarea><br>
-        <input type="submit" value="Enviar">
-    </form>
+        </table>
+    </div>
+
+    <div id="div6">
+        <h2 id="contactos">Contactos</h2>
+        <form action="/action_page.php">
+            <input type="text" id="name" name="name" placeholder="Nome" required><br>
+            <input type="text" id="email" name="email" placeholder="E-mail" required><br>
+            <input type="text" id="telemovel" name="telemovel" placeholder="Telemóvel" pattern="9[0-9]{8}" required><br>
+            <select id="assunto" name="assunto">
+                <option>Assunto</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+            </select><br>
+            <textarea id="mensagem" name="mensagem" placeholder="Mensagem" rows="5" cols="20" maxlength="255" required></textarea><br>
+            <input id="enviar" type="submit" value="Enviar">
+        </form>
+    </div>
+
+
 
 
 </body>

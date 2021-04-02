@@ -71,3 +71,74 @@ body{
     color:#a1aeb7;
     margin-bottom: 30px;
 }
+
+#div5{
+    padding: 20px 20px 40px 20px;
+}
+
+#div5>h2{
+    color: #424b5a;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+#div5>table{
+    background-color:#f2f5f7 ;
+    color:#a1aeb7;
+    border:1px solid;
+
+}
+
+#div5>table>thead{
+    background-color: #c2d1d9 ;
+    color:#424b5a;
+}
+#div5>table>thead>tr>th{
+    border:1px solid;
+    padding: 20px  ;
+}
+#div5>table>tbody>tr>td{
+    border:1px solid;
+    padding: 20px  ;
+}
+
+#div6{
+    padding: 20px 20px 40px 20px;
+    background-color: #f2f5f7;
+}
+
+#div6>h2{
+    color: #424b5a;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+#name{
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#email,#telemovel,#mensagem{
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#assunto{
+    width: 225px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#enviar{
+    background-color:#424b5a ;
+    color: white;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 225px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    text-transform: uppercase;
+}
