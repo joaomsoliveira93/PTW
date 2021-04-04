@@ -1,0 +1,87 @@
+body{
+    background-color: grey;
+}
+
+#main{
+    width: 750px;
+    background-color: white;
+    margin: auto;
+}
+
+#img{
+    padding: 5px 5px 0 5px;
+}
+
+#img>img{
+    max-width: 100%;
+    margin: auto;
+}
+
+#toolbar{
+    display: flex;
+    background-color: green;
+    margin: 0px 5px 0 5px;
+    padding:5px 0 5px 0;
+    font-size: large;
+    height: 22px;
+}
+
+#toolbar>#links>a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px 0 10px;
+    
+}
+
+#toolbar>#links{
+    width: 400px;
+    flex: 0 0 65%;
+}
+
+#toolbar>#search{
+    width: 250px;
+    color: white;
+    flex: 1;
+}
+
+#divContent{
+    display: flex;
+    margin: 0px 5px 0 5px;
+}
+
+#divContent>#content{
+    flex: 0 1 75%;
+    width: 500px;
+}
+
+#divContent>#info{
+    flex:  1;
+    width: 150px;
+    border: 1px solid gray;
+    height: 150px;
+    margin: 5px 0 0 20px;
+}
+
+#info>#header{
+    background-color: grey;
+    padding: 1px 5px 1px 10px;
+    color: white;
+}
+
+#info>#tags>ul{
+    color: green;
+    list-style-image: url("../images/bullet.gif");
+}
+
+#other{
+    text-align: center;
+    padding: 5px 0 5px 0;
+    background-color: rgb(58, 57, 57);  
+    border: 5px solid white; 
+}
+
+#other>a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px 0 10px;
+}
