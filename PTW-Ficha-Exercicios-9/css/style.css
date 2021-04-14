@@ -1,0 +1,82 @@
+body{
+    background-color: cadetblue;
+}
+
+.main{    
+    width: 550px;
+    height: 370px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.progresso{
+    position: absolute;
+    bottom: 0;
+}
+
+.incorreto{   
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
+
+.titulo{
+    text-align: right;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 15px;
+    font-size: xx-large;
+}
+
+.imagens{
+    position: relative;
+    width: 220px;
+    height: 270px;
+}
+
+.jogo{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 10px;
+    position: relative;
+}
+
+.letras{
+    height: 100px;
+    width: 210px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap: 0;
+}
+
+.tentativas{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: x-large;
+    text-align: center;
+    display: inline-flex;
+}
+
+.tentativa{
+    border-bottom: 1px solid rgb(180, 180, 180);
+    margin: 5px;
+    width: 20px;
+    color: rgb(180, 180, 180);
+}
+
+.letra{
+    position: relative;
+    text-align: center;
+    border: 1px solid rgb(180, 180, 180);
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    color: rgb(180, 180, 180);
+
+}
