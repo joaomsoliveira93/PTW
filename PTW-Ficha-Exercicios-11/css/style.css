@@ -1,0 +1,50 @@
+body{
+    background-color: gray;
+    color:brown;
+    text-align: center; 
+}
+
+.main{
+    margin: auto;
+    border: 1px solid black;
+    width: 70%;
+    padding: 20px 20px 20px 20px;   
+    background-color: white;
+    
+}
+
+.main > div > img{
+    height: 100px;
+}
+
+.title{
+    display: inline-flex;
+}
+
+.main > div > div{
+    margin: auto;
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.tabuleiro{
+    margin: auto;
+    display:grid;
+    max-width: min-content;
+}
+
+.linha{
+    display: inline-flex;
+}
+
+.quadrado{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border: 3px solid rgb(65, 170, 65);
+}
+
+.quadrado > img{
+    margin: 25px;
+}
+
