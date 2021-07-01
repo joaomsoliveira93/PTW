@@ -5,7 +5,7 @@ var yyyy = today.getFullYear();
 let data = document.getElementById('data');
 let bt = document.getElementById('addTask');
 
-const d2 = new Datepicker(document.getElementById("data"), {  
+d2 = new Datepicker(data, {  
   format: (d) => {
     return [
       d.getDate(),

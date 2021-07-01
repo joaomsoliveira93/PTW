@@ -1,0 +1,75 @@
+{
+    "dadosPessoais": {
+        "Nome": "João Oliveira ",
+        "Data de Nascimento": "20-09-1993",
+        "Sexo": "Masculino ",
+        "Nacionalidade": "Portuguesa",
+        "País": "Portugal",
+        "Funções": "Administrador de sistemas e Programador"
+    },
+    "competencias": {
+        "comp1": {
+            "nome": "HTML5/ CSS3",
+            "percentagem": "80"
+        },
+        "comp2": {
+            "nome": "JAVASCRIPT",
+            "percentagem": "85"
+        },
+        "comp3": {
+            "nome": "JAVA",
+            "percentagem": "70"
+        },
+        "comp4": {
+            "nome": "Android Studio",
+            "percentagem": "50"
+        },
+        "comp5": {
+            "nome": "SQL",
+            "percentagem": "60"
+        },
+        "comp6": {
+            "nome": "VISUAL BASIC",
+            "percentagem": "40"
+        },
+        "comp7": {
+            "nome": "PYTHON",
+            "percentagem": "30"
+        }
+    },
+    "resumo": "Experiência na gestão de redes e dispositvos informáticos num ambiente industrial. <br>Várias linguagens de programação sistemas operativos como o Windows Windows Server e Ubuntu(Linux) e vários conhecimentos a nível de reparação e montagens de computadores e redes informáticas e ainda domínio do software Microsoft Dynamics AX 2012. <br> Estágio curricular no âmbito do curso profissional na PT Inovação agora conhecida por Altice Labs. Este estágio teve uma duração de três meses nos quais realizei instalação e configuração de Servidores com Windows Server e estruturação / configuração de redes e armários bastidores para o alojamento destes servidores.",
+    "formacaoAcademica": {
+        "edu1": {
+            "nome": "Técnico de Informática de Gestão",
+            "instituicao": "Escola Secundária Dr. Jaime Magalhães Lima",
+            "nivel": "4",
+            "dataInicio": "2009",
+            "dataFim": "2012"
+        },
+        "edu2": {
+            "nome": "Licenciatura em Tecnologias da informação",
+            "instituicao": "Escola Superior de Tecnologia e Gestão de Águeda - Universidade de Aveiro",
+            "nivel": "6",
+            "dataInicio": "2019",
+            "dataFim": "Presente"
+        }
+    },
+    "experienciaProfissional": {
+        "pro1": {
+            "empresa": "OLI, Sistemas Sanitários, S.A.",
+            "funcao": "Operador/ Mudador de Moldes de Máquinas de Injeção de Plástico",
+            "dataInicio": "2013",
+            "dataFim": "2018"
+        },
+        "pro2": {
+            "empresa": "Bodum Plástico, S.A.",
+            "funcao": "Planeamento e Gestão de Produção/ IT manager",
+            "dataInicio": "2018",
+            "dataFim": "2019"
+        }
+    },
+    "contactos": {
+        "telemovel": "915270153",
+        "email": "joaomsoliveira@ua.pt"
+    }
+}
